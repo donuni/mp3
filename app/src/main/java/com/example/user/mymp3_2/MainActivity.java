@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Log.d("메세지","onCreate");
+
 
         recyclerView = findViewById(R.id.recyclerView);
         btnPlay = findViewById(R.id.btnPlay);
